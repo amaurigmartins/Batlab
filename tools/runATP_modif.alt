@@ -1,0 +1,11 @@
+@echo off
+set "desbloq_name=%1_DESBLOQ.ATP"
+copy %1 %desbloq_name%
+C:\ATP\tools\fart.exe %desbloq_name% "DELAY CELLS DFLT: 1000" "DELAY CELLS DFLT: 50000"
+REM C:\ATP\tools\fart.exe %desbloq_name% "IF (t <= timestep) THEN" "IF ((RG_PC = 0.0) OR (t <= timestep)) THEN"
+REM cscript C:\ATP\tools\Find_And_Replace.vbs %desbloq_name% "IF (t <= timestep) THEN" "IF ((RG_PC = 0.0) OR (t <= timestep)) THEN"
+REM cscript C:\ATP\tools\Find_And_Replace.vbs %desbloq_name% "DELAY CELLS DFLT: 1000" "DELAY CELLS DFLT: 50000"
+REM pause
+del %1
+move /y %desbloq_name% %1
+C:\ATP\tools\runATP.exe %1
