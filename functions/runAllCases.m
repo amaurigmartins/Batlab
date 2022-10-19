@@ -6,7 +6,7 @@ for k=1:length(dirdata)
     app.ProgrammessagesTextArea.Value{end+1} = [sprintf('Now processing file: %s...',fname)];
 
     cmd=['"' solvercall '" ' '"' fullfile(wdir,fname) '"'];
-    if app.UseWineengineforLinuxusersCheckBox.Value ==1
+    if app.UseWineLinuxCheckBox.Value ==1
         cmd = ['wine ' cmd];
     end
     drawnow;
