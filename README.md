@@ -33,6 +33,11 @@ ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from 
 
 ## Restrictions of use
 
-We appreciate the interest in our work and we invite the interested users to use our codes as necessary, as long as they are not embedded in any commercial software, which is **strictly prohibited**. However, if you use the ATP-Batlab as a part of scientific research, we kindly ask you to refer to our published papers as per the CITATION.cff file.
+We appreciate the interest in our work and we invite the interested users to use our codes as necessary, as long as they are not embedded in any commercial software, which is **strictly prohibited**. However, if you use the ATP-Batlab as a part of scientific research, we kindly ask you to refer to our published papers:
 
+- M. A. B. Ribeiro, C. M. Moraes, A. G. Martins-Britto, K. M. Silva, "[Assessment of Different Frequency-Dependent Line Models for EMT Simulations of HVDC Systems](https://ieeexplore.ieee.org/document/10344430/)," in 2023 Workshop on Communication Networks and Power Systems (WCNPS), doi: 10.1109/WCNPS60622.2023.10344430.
+  
+- L. A. Ribeiro, G. Cunha, A. G. Martins-Britto, E. P. A. Ribeiro, F. V. Lopes, “[Impact of transmission line modeling aspects on TW-Based fault location studies](https://www.sciencedirect.com/science/article/abs/pii/S0378779621001851),” in Electric Power Systems Research, 196(2):107204, doi: 110.1016/j.epsr.2021.107204.
+
+    
 
