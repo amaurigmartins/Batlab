@@ -2,7 +2,9 @@
 
 # ATP-Batlab
 
-Helper tool for batch ATP simulations, parametrics analyses and dataset generation using MATLAB. ATP-Batlab is designed to read a template ATP file supplied by the user and extract the model variables defined in the $PARAMETER section. A friendly GUI enables the user to specify ranges or conditional values for each variable set in ATP/ATPDraw. Then, the program will refactor the original ATP template and write the requested case files, changing the $PARAMETER values as per user entry. A Windows script (batch file) is created to run and post-process all cases at once. The result files may be kept in PL4 format, written to MATLAB matfiles or converted into COMTRADE. ATP. Batch. MATLAB.  Batlab. Got it? 
+Helper tool for batch ATP simulations, parametrics analyses and dataset generation using MATLAB. ATP-Batlab is designed to read a template ATP file supplied by the user and extract the model variables defined in the $PARAMETER section. A friendly GUI enables the user to specify ranges or conditional values for each variable set in ATP/ATPDraw. Then, the program will refactor the original ATP template and write the requested case files, changing the $PARAMETER values as per user entry. A Windows script (batch file) is created to run and post-process all cases at once. The result files may be kept in PL4 format, written to MATLAB matfiles or converted into COMTRADE. 
+
+ATP. Batch. MATLAB.  Batlab. Got it? 
 
 ### Highlight of the main features
 
