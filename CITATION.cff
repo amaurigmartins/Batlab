@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+title: ATP-Batlab
+message: ' Helper tool for batch ATP simulations, parametric analyses and dataset generation using MATLAB '
+type: software
+authors:
+  - given-names: Amauri
+    family-names: Martins-Britto
+    email: amaurigmartins@gmail.com
+    orcid: 'https://orcid.org/0000-0002-2691-9061'
+    affiliation: University of Brasília
+identifiers:
+  - type: doi
+    value: 10.1109/WCNPS60622.2023.10344430
+    description: >-
+      Assessment of Different Frequency-Dependent Line Models for EMT Simulations of HVDC Systems.
+  - type: doi
+    value: 10.1016/j.epsr.2021.107204
+    description: >-
+      Impact of transmission line modeling aspects on TW-Based fault location studies.
+repository-code: 'https://github.com/amaurigmartins/ATPBatlab'
+url: >-
+  https://www.mathworks.com/matlabcentral/fileexchange/157621-atpbatlab
+abstract: >-
+  Toolbox in MATLAB for modelling of overhead and
+  underground transmission lines (per-unit-length
+  parameters, propagation characteristics, frequency scan,
+  transient simulations).
+version: 1.0.0
+date-released: '2024-01-13'
