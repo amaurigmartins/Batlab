@@ -19,10 +19,10 @@ ATP. Batch. MATLAB.  Batlab. Got it?
 
 The use of the program is relatively straightforward if you are able to work with $PARAMETER values in ATP. Create your model normally in ATPDraw. Specify the values you want to vary as $PARAMETER variables in ATPDraw (make sure that the internal parser of ATPDraw is DISABLED). Hit ATP → Sub-process → Make ATP file. This is your template file. Launch the file 'atpbatlab.mlapp' from MATLAB workspace and load the newly-created ATP file. All valid $PARAMETERS will be parsed and displayed in the 'Model variables' window. The field 'Newvalues' contain the values you want to specify. Set numeric data as row vectors ([1 2 3]), string data as cell arrays ({'str1' 'str2' 'str3'}) or any MATLAB function returning these data types. You can save your design by clicking 'Save input session' or recover an existing design by clicking 'Load input session'. You will be prompted to specify a JobID and this is **mandatory**. The JobID is a text string which will be used to identify all the output files and folders. For instructions on the conditional variables, hover the mouse over the corresponding window in the 'Refactor' tab. Right-click over a $PARAMETER for shortcuts. Define what tasks you want to perform and hit Run!
 
-Screenshot of the 'Model variables' screen:
+General view:
 [![Screenshot #1](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot1.png?raw=true)](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot1.png?raw=true) 
 
-Screenshot of the 'Conditional variables' screen:
+Screenshot of the 'Refactor' tab:
 [![Screenshot #2](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot2.png?raw=true)](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot2.png?raw=true) 
 
 ## Important information
