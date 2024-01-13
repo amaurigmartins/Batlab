@@ -6,7 +6,7 @@ Helper tool for batch ATP simulations, parametric analyses and dataset generatio
 
 ATP. Batch. MATLAB.  Batlab. Got it? 
 
-### Highlight of the main features
+## Highlight of the main features
 
 - Parametric simulations made easy: you can vary component values, switch statuses, circuit node where a disturbance occurs, fault location along a line and basically whatever can be declared as a $PARAMETER in ATP.
 - Values can be set as hard-coded data or MATLAB functions, numeric or string. You can specify several variables, the program will write all the possible input combinations.
@@ -15,13 +15,17 @@ ATP. Batch. MATLAB.  Batlab. Got it?
 - Run recovery features: you are in the middle of a thousand-cases batch and the power goes out... Ironic, but fear not: the batch is programmed to recover from where it stopped. Also, progress is recorded to logfiles. You are welcome.
 - ATP-Batlab is distributed with a GUI designed to aid data entry. You can save your projects in matfiles and recover them for later use.
 
-### Basic instructions
+## Basic instructions
 
 The use of the program is relatively straightforward if you are able to work with $PARAMETER values in ATP. Create your model normally in ATPDraw. Specify the values you want to vary as $PARAMETER variables in ATPDraw (make sure that the internal parser of ATPDraw is DISABLED). Hit ATP → Sub-process → Make ATP file. This is your template file. Launch the file 'atpbatlab.mlapp' from MATLAB workspace and load the newly-created ATP file. All valid $PARAMETERS will be parsed and displayed in the 'Model variables' window. The field 'Newvalues' contain the values you want to specify. Set numeric data as row vectors ([1 2 3]), string data as cell arrays ({'str1' 'str2' 'str3'}) or any MATLAB function returning these data types. You can save your design by clicking 'Save input session' or recover an existing design by clicking 'Load input session'. You will be prompted to specify a JobID and this is **mandatory**. The JobID is a text string which will be used to identify all the output files and folders. For instructions on the conditional variables, hover the mouse over the corresponding window in the 'Refactor' tab. Right-click over a $PARAMETER for shortcuts. Define what tasks you want to perform and hit Run!
 
-[![Screenshot #1](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot.png?raw=true)](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot.png?raw=true) 
+Screenshot of the 'Model variables' screen:
+[![Screenshot #1](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot1.png?raw=true)](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot1.png?raw=true) 
 
-### Important information
+Screenshot of the 'Conditional variables' screen:
+[![Screenshot #2](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot2.png?raw=true)](https://github.com/amaurigmartins/ATPBatlab/blob/main/Screenshot2.png?raw=true) 
+
+## Important information
 
 ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from the ATP PL4 format into matfiles. To make things easier, this program is made available in the 'tools' folder. Note that Pl42mat is intelectual property of prof. Massimo Ceraolo from University of Pisa (Italy), with all due credits given. Observe any restrictions and licensing/usage requirements in his website:  [http://ceraolo-plotxy.ing.unipi.it/default.htm](http://ceraolo-plotxy.ing.unipi.it/default.htm).
 
