@@ -21,4 +21,8 @@ The use of the program is relatively straightforward if you are able to work wit
 
 ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from the ATP PL4 format into matfiles. To make things easier, this program is made available in the 'tools' folder. Note that Pl42mat is intelectual property of prof. Massimo Ceraolo from University of Pisa (Italy), with all due credits given. Observe any restrictions and licensing/usage requirements in his website:  [http://ceraolo-plotxy.ing.unipi.it/default.htm](http://ceraolo-plotxy.ing.unipi.it/default.htm).
 
+## Restrictions of use
+
+We appreciate the interest in our work and we invite the interested users to use our codes as necessary, as long as they are not embedded in any commercial software, which is **strictly prohibited**. However, if you use the ATP-Batlab as a part of scientific research, we kindly ask you to refer to our published papers as per the CITATION.cff file.
+
 
