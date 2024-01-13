@@ -4,7 +4,7 @@
 
 Helper tool for batch ATP simulations, parametric analyses and dataset generation using MATLAB. ATP-Batlab is designed to read a template ATP file supplied by the user and extract the model variables defined in the $PARAMETER section. A friendly GUI enables the user to specify ranges or conditional values for each variable set in ATP/ATPDraw. Then, the program will refactor the original ATP template and write the requested case files, changing the $PARAMETER values as per user entry. A Windows script (batch file) is created to run and post-process all cases at once. The result files may be kept in PL4 format, written to MATLAB matfiles or converted into COMTRADE. 
 
-ATP. Batch. MATLAB.  Batlab. Got it? 
+ATP. Batch files. MATLAB.  Batlab. Got it? 
 
 ## Highlight of the main features
 
@@ -29,7 +29,7 @@ The use of the program is relatively straightforward if you are able to work wit
 
 ## Important information
 
-ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from the ATP PL4 format into matfiles. To make things easier, this program is made available in the 'tools' folder. Note that Pl42mat is intelectual property of prof. Massimo Ceraolo from University of Pisa (Italy), with all due credits given. Observe any restrictions and licensing/usage requirements in his website:  [http://ceraolo-plotxy.ing.unipi.it/default.htm](http://ceraolo-plotxy.ing.unipi.it/default.htm).
+ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from the ATP PL4 format into matfiles. To make things easier, this program is made available in the 'tools' folder. Note that Pl42mat is intellectual property of prof. Massimo Ceraolo from University of Pisa (Italy), with all due credits given. Observe any restrictions and licensing/usage requirements in his website:  [http://ceraolo-plotxy.ing.unipi.it/default.htm](http://ceraolo-plotxy.ing.unipi.it/default.htm).
 
 ## Restrictions of use
 
