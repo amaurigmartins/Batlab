@@ -29,7 +29,7 @@ The use of the program is relatively straightforward if you are able to work wit
 
 ## Important information
 
-ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from the ATP PL4 format into matfiles. To make things easier, this program is made available in the 'tools' folder. Note that Pl42mat is intellectual property of prof. Massimo Ceraolo from University of Pisa (Italy), with all due credits given. Observe any restrictions and licensing/usage requirements in his website:  [http://ceraolo-plotxy.ing.unipi.it/default.htm](http://ceraolo-plotxy.ing.unipi.it/default.htm).
+ATP-Batlab requires the external binary Pl42mat.exe to perform conversions from the ATP PL4 format into matfiles. Pl42mat is intellectual property of prof. Massimo Ceraolo from University of Pisa ([http://ceraolo-plotxy.ing.unipi.it/default.htm](http://ceraolo-plotxy.ing.unipi.it/default.htm)). In addition, ATP-Batlab uses the 'allcomb.m' routine developed by Jos (10584), available from File Exchange: [https://www.mathworks.com/matlabcentral/fileexchange/10064-allcomb-varargin ](https://www.mathworks.com/matlabcentral/fileexchange/10064-allcomb-varargin). These codes are properties of the respective authors, with all due credits given. Observe any restrictions and licensing/usage requirements in the aforementioned websites.
 
 ## Restrictions of use
 
