@@ -10,7 +10,6 @@ end
 atp_results=load([fname '.mat']);
 Fs = 1/(atp_results.t(2)-atp_results.t(1));
 
-workdir='Z:\Documents\_ResearchProjects\18_ATPBatlab';
 outdir = fullfile(workdir,jobid,'COMTRADE');
 timestamp = datetime('now');
 datetime_struct=fix_datetime(timestamp);
